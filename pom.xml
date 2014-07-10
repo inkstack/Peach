@@ -49,25 +49,25 @@
 			<dependency>
 				<groupId>javax.servlet</groupId>
 				<artifactId>javax.servlet-api</artifactId>
-				<version>${servlet-api.version}</version>
+				<version>${version.servlet-api}</version>
 				<scope>runtime</scope>
 			</dependency>
 			<dependency>
 				<groupId>javax.servlet.jsp</groupId>
 				<artifactId>javax.servlet.jsp-api</artifactId>
-				<version>${jsp-api.version}</version>
+				<version>${version.jsp-api}</version>
 				<scope>runtime</scope>
 			</dependency>
 			<dependency>
 				<groupId>javax.servlet.jsp.jstl</groupId>
 				<artifactId>javax.servlet.jsp.jstl-api</artifactId>
-				<version>${jstl-api.version}</version>
+				<version>${version.jstl-api}</version>
 				<scope>runtime</scope>
 			</dependency>
 			<dependency>
 				<groupId>javax.inject</groupId>
 				<artifactId>javax.inject</artifactId>
-				<version>${javax.inject.version}</version>
+				<version>${version.javax.inject}</version>
 				<scope>runtime</scope>
 			</dependency>
 
@@ -75,17 +75,17 @@
 			<dependency>
 				<groupId>org.slf4j</groupId>
 				<artifactId>slf4j-api</artifactId>
-				<version>${slf4j.version}</version>
+				<version>${version.slf4j}</version>
 			</dependency>
 			<dependency>
 				<groupId>org.slf4j</groupId>
 				<artifactId>slf4j-log4j12</artifactId>
-				<version>${slf4j.version}</version>
+				<version>${version.slf4j}</version>
 			</dependency>
 			<dependency>
 				<groupId>log4j</groupId>
 				<artifactId>log4j</artifactId>
-				<version>${log4j.version}</version>
+				<version>${version.log4j}</version>
 			</dependency>
 
 			<dependency>
@@ -139,5 +139,6 @@
 	<modules>
 		<module>core</module>
 		<module>example</module>
+		<module>prototype</module>
 	</modules>
 </project>
